@@ -18,7 +18,7 @@ class Plugin extends PuppeteerExtraPlugin {
     await page.evaluateOnNewDocument(() => {
       // Overwrite the `plugins` property to use a custom getter.
       Object.defineProperty(navigator, 'languages', {
-        get: () => ['en-US', 'en']
+        get: () => ['ru-UA', 'uk', 'en']
       })
     })
   }
