@@ -1,4 +1,5 @@
 {
+  "name": "puppeteer-fork-with-iframe",
   "private": true,
   "description": "Modular framework to teach Puppeteer new tricks.",
   "repository": "berstend/puppeteer-extra",
